@@ -1,6 +1,14 @@
 
+header {
+    margin-top: 0;
+    padding: 20px 10px;
+}
 
 h1 {
+    text-align: center;
+}
+
+ul{
     text-align: center;
 }
 
@@ -8,6 +16,28 @@ li {
     display: inline;  
  
 }
-ul{
+
+section {
+    padding-left: 3%;
+    border-bottom: 1px;
+}
+
+img {
+  border: 1px; 
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  
+}
+
+button {
+    padding: 10px;
+    border-radius: 0px;
+    width: 18%;
+}
+
+footer {
+    height:60px;  
     text-align: center;
+    
 }
