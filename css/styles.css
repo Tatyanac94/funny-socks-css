@@ -2,10 +2,13 @@
 header {
     margin-top: 0;
     padding: 20px 10px;
+    background-color: rgb(252, 73, 139);
+
 }
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 ul{
@@ -14,12 +17,22 @@ ul{
 
 li {
     display: inline;  
- 
+}
+
+li a {
+    color: rgb(0, 231, 142);
 }
 
 section {
     padding-left: 3%;
-    border-bottom: 1px;
+}
+
+#home, #about {
+    border-bottom: 3px solid rgb(240, 238, 238);
+}
+
+.product {
+    background-color: rgb(255, 208, 0);
 }
 
 img {
@@ -32,12 +45,16 @@ img {
 
 button {
     padding: 10px;
-    border-radius: 0px;
+    border-color:  rgb(51, 172, 51);
     width: 100px;
-}
+    background-color: rgb(51, 172, 51);
+    color:white;
+    }
+    
 
 footer {
     height:60px;  
     text-align: center;
-    
+    background-color: black;
+    color: white;
 }
